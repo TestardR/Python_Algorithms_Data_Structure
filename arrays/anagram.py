@@ -1,7 +1,9 @@
+# O(n) Linear Time Complexity
 def anagram(s1, s2):
     return sorted(s1.replace(' ', '').lower()) == sorted(s2.replace(' ', '').lower())
 
 
+# O(n) Linear Time Complexity
 def anagram2(s1, s2):
     store = {}
 
@@ -28,6 +30,8 @@ def anagram2(s1, s2):
             return False
     
     return True
+
+
 
 
 anagram('public relations', 'crap built on lies')
