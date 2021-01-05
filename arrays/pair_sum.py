@@ -1,4 +1,4 @@
-
+# O(n) Linear Time Complexity
 def pair_sum(arr, k):
 
     if len(arr) < 2:
@@ -16,7 +16,7 @@ def pair_sum(arr, k):
         else:
             output.add((min(target, n), max(target, n)))
 
-    print(output)
+    return output
 
 
 pair_sum([1, 3, 2, 2], 4)
